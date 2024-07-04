@@ -1,0 +1,446 @@
+body,
+html {
+  width: 100%;
+}
+
+body {
+  background-color: #1a1a1a;
+  overflow-x: hidden;
+}
+
+#root {
+  height: 100%;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  margin-left: 240px;
+  transition: all 0.5s;
+}
+
+.content {
+  margin-left: 240px;
+  height: 100%;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-17 {
+  font-size: 17px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
+.fs-26 {
+  font-size: 26px
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.p-rel {
+  position: relative;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.page-layout {
+  width: 100%;
+  height: 100%;
+}
+
+
+.profile-btn {
+  background: #a677df;
+  color: #fff;
+  font-weight: 600;
+  width: 2.05rem;
+  height: 2.05rem;
+  text-align: center;
+  border: 0;
+  font-size: 14px;
+}
+
+.profile-btn:hover {
+  color: #fff;
+  background: #7c57aa;
+}
+
+.profile-btn:active,
+.profile-btn.active {
+  color: #fff !important;
+  background: #7c57aa !important;
+}
+
+.profile-btn.show {
+  color: #fff !important;
+  background: #7c57aa !important;
+}
+
+/* .topbar .nav-item{
+  margin-right:16px
+} */
+.topbar .nav-item .nav-link i {
+  font-size: 14px
+}
+
+.topbar .nav-link {
+  border-radius: 8px;
+  font-size: 13px;
+  padding: 0px 2px;
+  width: 2.05rem;
+  height: 2.05rem;
+  border: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topbar .nav-item {
+  margin-right: 14px;
+}
+
+.topbar .nav-link:hover {
+  background-color: #f7f8f8;
+}
+
+.topnav-right {
+  display: flex;
+  align-items: center;
+  border-left: 1px solid #dee2e6;
+  padding-left: 14px;
+}
+
+.theme-btn,
+.ellipsis-btn {
+  margin-right: 14px;
+  width: 2.05rem;
+  height: 2.05rem;
+  border: 0;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-btn:hover,
+.ellipsis-btn:hover {
+  border-radius: 8px;
+}
+
+.ellipsis-btn:focus {
+  border: 0;
+}
+
+.navbar-brand {
+  padding-right: 16px;
+  border-right: 1px solid #dee2e6;
+}
+
+.bg-container {
+  height: 66px;
+  width: 100%;
+}
+
+.navbar {
+  height: 65px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .2);
+}
+
+.logo-bg {
+  background: #a677df;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-item {
+  padding: 4px 6px;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  padding: 10px;
+}
+
+.dropdown-item:hover {
+  background-color: #6c6789 !important;
+}
+
+.dropdown-item:hover i {
+  color: #fff;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: #a677df;
+  color: #fff !important;
+}
+
+.dropdown-item.active,
+.dropdown-item:active i {
+  color: #fff;
+}
+
+.dropdown-ellipsis {
+  padding: 0px 2px;
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
+  border: 0;
+}
+
+.dropdown-ellipsis:hover {
+  border-radius: 8px;
+}
+
+.dropdown-ellipsis:focus {
+  border: 0;
+}
+
+.sidebar-header {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0.5rem .75rem;
+}
+
+:focus-visible {
+  outline: 0;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.main-div {
+  width: 100%;
+  height: calc(100vh - 55px);
+  position: relative;
+  top: 54px;
+  display: flex;
+}
+
+.search-input:focus {
+  box-shadow: none;
+  border-color: #c298d8 !important;
+  background-color: transparent !important;
+  cursor: text;
+}
+
+.sidebar-item:hover .search-input:focus {
+  background-color: transparent !important;
+}
+
+.ellipsis-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.pad-10 {
+  padding: 10px;
+}
+
+.home-bg {
+  background-color: #121212;
+}
+
+.home-card {
+  border: 0;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.add-teams {
+  padding: 0px 2px;
+  width: 2.05rem;
+  height: 2.05rem;
+  text-align: center;
+  border: 0;
+}
+
+.search-input::placeholder {
+  color: #fff;
+}
+
+.p-dropdown:not(.p-disabled).p-focus {
+  box-shadow: none;
+}
+
+.p-avatar {
+  border-radius: 6px;
+}
+
+.p-avatar-text {
+  font-weight: 500;
+}
+
+.name-avatar {
+  background-color: #a677df;
+  color: #ffffff;
+  width: 1.25rem;
+  height: 1.25rem;
+  font-size: 10px;
+}
+
+/* scrollbar styles */
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px #35344D;
+  background-color: #35344D;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  border-radius: 10px;
+  width: 8px;
+  background-color: #BB86FC;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #BB86FC;
+
+}
+
+/* scrollbar styles */
+
+/* dialog styles */
+.p-dialog .p-dialog-header {
+  padding: .65rem;
+}
+
+.p-submenu-list {
+  border-radius: 6px;
+}
+
+.p-icon.p-dialog-header-close-icon {
+  width: .8rem;
+  height: .8rem;
+}
+
+.p-dialog-header-close {
+  border-radius: 50%;
+}
+
+.p-dialog-header-close:hover {
+  background-color: #3e4a5a;
+}
+
+/* dialog styles */
+.my-dialog .board-input {
+  background: transparent;
+  border: 1px solid #85888C;
+  color: #fff;
+
+}
+
+.board-input:focus {
+  border: 1px solid #a677df !important;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.p-dropdown {
+  display: flex;
+  background: transparent;
+  border-color: transparent;
+  align-items: center;
+}
+
+.p-dropdown:focus-visible {
+  outline: none;
+}
+
+.p-dropdown:focus {
+  border-color: transparent;
+}
+
+.p-dropdown-label {
+  padding: 0;
+}
+
+.main-space .p-dropdown {
+  padding: 0rem .75rem;
+}
+
+.spaces {
+  padding: 0rem .75rem;
+}
+
+button:focus:not(:focus-visible) {
+  box-shadow: none;
+}
+
+.p-dialog .p-dialog-header,
+.p-dialog .p-dialog-content,
+.p-dialog .p-dialog-footer {
+  background: #2a2b3d;
+}

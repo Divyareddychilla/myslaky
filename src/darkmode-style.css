@@ -1,0 +1,122 @@
+#darkmode .layout-container {
+    background: #1F1A24;
+}
+
+#darkmode .login-card {
+    background-color: #343039;
+}
+
+#darkmode .login-page .form-control,
+.login-page .form-control:focus {
+    background-color: #1f1a24;
+}
+
+#darkmode .login-page .form-control:focus {
+    border: 1px solid #bb86fc;
+    box-shadow: none;
+}
+
+#darkmode .login-btn {
+    background: #bb86fc;
+}
+
+#darkmode .navbar-bg {
+    background-color: #121212;
+}
+
+#darkmode .theme-btn:hover,
+.ellipsis-btn:hover {
+    background: #373445;
+}
+
+#darkmode .topbar .nav-link:hover,
+#darkmode .topbar .nav-link:active,
+#darkmode .topbar .nav-link.active {
+    background: #373445;
+}
+
+#darkmode .dropdown-ellipsis:hover {
+    background: #373445;
+}
+
+#darkmode .icon-color {
+    color: #fff;
+}
+
+#darkmode .navbar-toggler-icon {
+    background-image: url('');
+}
+
+#darkmode .navbar-brand {
+    border-right: 1px solid #dee2e6;
+}
+
+#darkmode .org-name {
+    color: #fff;
+}
+
+#darkmode .ellipsis-btn,
+#darkmode .dropdown-ellipsis {
+    color: #fff;
+}
+
+#darkmode .dropdown-item {
+    color: #fff;
+}
+
+#darkmode .dropdown-menu {
+    background: #48445c;
+}
+
+#darkmode .search-input {
+    color: #fff;
+}
+
+#darkmode .p-submenu-list {
+    background: #48445c;
+}
+
+#darkmode .board-menu .dropdown-ellipsis:focus {
+    background: #373445;
+}
+
+#darkmode .ellipsis-btn:focus {
+    background: #373445;
+}
+
+#darkmode .home-card {
+    background: #373445;
+}
+
+#darkmode .add-teams {
+    color: #fff;
+}
+
+#darkmode .add-teams:hover,
+#darkmode .add-teams:focus {
+    background: #373445;
+}
+
+#darkmode .board-list-item {
+    color: #fff;
+}
+
+#darkmode .board-list-item:hover {
+    color: #fff;
+}
+
+#darkmode .sidebar-item {
+    color: #fff;
+}
+
+#darkmode .sidebar-item:hover {
+    color: #fff;
+}
+
+#darkmode .teampage {
+    color: #fff;
+}
+
+#darkmode .p-tieredmenu .p-menuitem>.p-menuitem-content .p-menuitem-link {
+    color: #fff;
+}

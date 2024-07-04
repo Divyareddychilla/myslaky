@@ -1,0 +1,213 @@
+
+#sidebar {
+    max-width: 240px;
+    min-width: 240px;
+    transition: all 0.35s ease-in-out;
+    /* box-shadow: 0 0 35px 0 rgba(49, 57, 66, 0.5); */
+    /* z-index: 1111; */
+    background-color:#121212 ;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: #fff;
+    position: fixed;
+    left: 0;
+}
+/* Sidebar collapse */
+
+#sidebar.collapsed {
+    margin-left: -264px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    transition: all 0.35s ease-in-out;
+}
+
+a.sidebar-link {
+    padding: .625rem 1.625rem;
+    color: #e9ecef;
+    position: relative;
+    display: block;
+    font-size: 1rem;
+}
+
+.sidebar-link[data-bs-toggle="collapse"]::after {
+    border: solid;
+    border-width: 0 .075rem .075rem 0;
+    content: "";
+    display: inline-block;
+    padding: 2px;
+    position: absolute;
+    right: 1.5rem;
+    top: 1.4rem;
+    transform: rotate(-135deg);
+    transition: all .2s ease-out;
+}
+
+.sidebar-link[data-bs-toggle="collapse"].collapsed::after {
+    transform: rotate(45deg);
+    transition: all .2s ease-out;
+}
+.dropdown-demo .p-dropdown {
+    width: 14rem;
+}
+.list-dropdown{
+    padding: .625rem 1.625rem;
+    color: #e9ecef;
+    position: relative;
+    display: block;
+    font-size: 1rem;
+}
+.p-dropdown{
+    display: flex;
+    background: transparent;
+    border-color: transparent;
+}
+.p-dropdown:focus-visible{
+    outline: none;
+}
+.p-dropdown:focus{
+    border-color: #c298d8;
+}
+ul{
+    list-style: none;
+}
+.p-dropdown-trigger{
+    padding: 0px 2px;
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+}
+.dropdown-menu li {
+    position: relative;
+    }
+    .dropdown-menu .dropdown-submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+    }
+    .dropdown-menu .dropdown-submenu-left {
+    right: 100%;
+    left: auto;
+    }
+    .dropdown-menu > li:hover > .dropdown-submenu {
+    display: block;
+    }
+    .p-dropdown .p-dropdown-label.p-placeholder{
+        color: #fff;
+    }
+.sidebar-item:hover{
+    background-color: #48445c;
+    border-radius: 6px;
+}
+.add-item-btn:active{
+    background-color: #48445c;
+}
+.p-tieredmenu.p-tieredmenu-overlay{
+    background-color: #48445c;
+    border-radius: 6px;
+    padding: 6px;
+}
+.p-tieredmenu-root-list{
+    padding-left: 0;
+}
+.p-tieredmenu .p-menuitem.p-highlight > .p-menuitem-content{
+    background:#6c6789;
+}
+.p-tieredmenu .p-menuitem:not(.p-highlight):not(.p-disabled) > .p-menuitem-content:hover{
+    background:#6c6789;
+    border-radius: 6px ;
+}
+.p-tieredmenu .p-menuitem > .p-menuitem-content .p-menuitem-link{
+    padding: .5rem;
+}
+.p-menuitem-text{
+    padding-left:0.5rem;
+}
+.p-menuitem:focus-visible{
+    outline:0;
+}
+.p-menuitem-content:focus-visible{
+    outline: 0;
+}
+.p-tieredmenu{
+    background-color: #48445c;
+    border-radius: 6px;
+    padding: 6px;
+}
+.search-input{
+    background: transparent !important;
+    border-color: transparent !important;
+    padding-left: 42px !important;
+    cursor:pointer
+}
+
+.search-input:hover{
+    background-color: #48445c !important;
+}
+.search-input:hover:focus{
+    background-color: #48445c;
+}
+.search-input:focus:hover{
+    background-color: transparent !important;
+}
+.search-icon{
+    position: absolute;
+    top: 13px;;
+    left: 13px;
+    color: #fff;
+}
+.teams-sidebar .board-list{
+    height: calc(100vh - 255px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-right: 10px;
+    /* scrollbar-width: thin;
+    scrollbar-color: #BB86FC #35344D; */
+    max-width: 350px;
+}
+.board-list-item{
+    padding: .375rem .75rem;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.board-list-item:hover{
+    background-color: #48445c;
+}
+.board-menu .dropdown-ellipsis{
+    width: 1.6rem;
+    height: 1.6rem;
+    font-size: 12px;
+}
+.board-list-item.active{
+    background-color: #48445c;
+}
+/* .board-menu{
+    display: none;
+}
+.board-list-item:hover .board-menu{
+    display: block;
+} */
+.board-menu .dropdown-ellipsis:hover{
+    background-color: #373445;
+}
+.p-submenu-list{
+    padding: 7px;
+}
+.teams-div{
+    padding: .375rem .75rem;
+    cursor: pointer;
+}
+.sidebar-item.active{
+    background-color: #48445c;
+}
